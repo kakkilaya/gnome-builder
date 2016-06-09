@@ -157,6 +157,8 @@ libide_1_0_la_public_headers = \
 	search/ide-omni-search-entry.h \
 	search/ide-omni-search-group.h \
 	search/ide-omni-search-row.h \
+	template/ide-file-template.h \
+	template/ide-file-template-provider.h \
 	template/ide-project-template.h \
 	template/ide-template-base.h \
 	template/ide-template-provider.h \
@@ -311,6 +313,8 @@ libide_1_0_la_public_sources = \
 	search/ide-omni-search-entry.c \
 	search/ide-omni-search-group.c \
 	search/ide-omni-search-row.c \
+	template/ide-file-template.c \
+	template/ide-file-template-provider.c \
 	template/ide-project-template.c \
 	template/ide-template-base.c \
 	template/ide-template-provider.c \
