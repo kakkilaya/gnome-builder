@@ -286,6 +286,7 @@ m4_include([plugins/create-project/configure.ac])
 m4_include([plugins/ctags/configure.ac])
 m4_include([plugins/devhelp/configure.ac])
 m4_include([plugins/file-search/configure.ac])
+m4_include([plugins/file-templates/configure.ac])
 m4_include([plugins/flatpak/configure.ac])
 m4_include([plugins/fpaste/configure.ac])
 m4_include([plugins/gcc/configure.ac])
@@ -614,5 +615,6 @@ echo ""
 echo " Templates"
 echo ""
 echo "  Autotools ............................ : ${enable_autotools_templates}"
+echo "  File Templates ....................... : ${enable_file_templates}"
 echo ""
 

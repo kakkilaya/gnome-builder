@@ -11,6 +11,7 @@ SUBDIRS = \
 	ctags \
 	devhelp \
 	file-search \
+	file-templates \
 	flatpak \
 	fpaste \
 	gcc \

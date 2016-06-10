@@ -1,0 +1,11 @@
+[Plugin]
+Name=File Templates
+Description=Provides templates for adding new files
+Authors=Akshaya Kakkilaya <akshaya.kakkilaya@gmail.com>
+Copyright=Copyright © 2016 Akshaya Kakkilaya
+
+Builtin=true
+Hidden=true
+
+Loader=python3
+Module=file_templates

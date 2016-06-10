@@ -76,6 +76,7 @@ ide_file_template_expand_async (IdeFileTemplate     *self,
   g_return_if_fail (IDE_IS_FILE_TEMPLATE (self));
   g_return_if_fail (params != NULL);
   g_return_if_fail (g_hash_table_contains (params, "name"));
+  g_return_if_fail (g_hash_table_contains (params, "path"));
   g_return_if_fail (!cancellable || G_IS_CANCELLABLE (cancellable));
 
   IDE_FILE_TEMPLATE_GET_IFACE (self)->expand_async (self, params, cancellable, callback, user_data);
